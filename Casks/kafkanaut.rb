@@ -2,10 +2,10 @@ cask "kafkanaut" do
   version "0.48.0"
   sha256 "670230f6eb642c43f043e6864eab5070814d191f9ac46447dfab2ab2baa82ced"
 
-  url "https://github.com/smike4658/kafkanaut-app/releases/download/v#{version}/Kafkanaut_#{version}_aarch64.dmg"
+  url "https://github.com/kafkanaut/kafkanaut-app/releases/download/v#{version}/Kafkanaut_#{version}_aarch64.dmg"
   name "Kafkanaut"
   desc "Free desktop Kafka client — browse, filter and produce Kafka messages"
-  homepage "https://smike4658.github.io/kafkanaut-app/"
+  homepage "https://kafkanaut.github.io/kafkanaut-app/"
 
   livecheck do
     url :url
@@ -28,6 +28,6 @@ cask "kafkanaut" do
 
     Alternatively, install without the quarantine flag:
 
-      brew install --cask --no-quarantine smike4658/tap/kafkanaut
+      brew install --cask --no-quarantine kafkanaut/tap/kafkanaut
   EOS
 end
