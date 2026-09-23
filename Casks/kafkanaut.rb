@@ -1,6 +1,6 @@
 cask "kafkanaut" do
-  version "0.56.0"
-  sha256 "174921607d6456d7af896b4c3e5ed9f53029f5a6c94dac0bb47e12ba018ee51f"
+  version "0.56.1"
+  sha256 "3cd0e9a292ebb848b83ba5dee1b4c0a6aa81366cfb08a545e97d7e6878a17cc6"
 
   url "https://github.com/kafkanaut/kafkanaut-app/releases/download/v#{version}/Kafkanaut_#{version}_universal.dmg"
   name "Kafkanaut"
